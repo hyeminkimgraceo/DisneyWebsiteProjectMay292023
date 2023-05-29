@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Multi-Page Demo</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="main.js"></script>
+  </head>
+  <!-- i forgot <script defer src="main.js"></script> 
+    (also thought it was this -> but it wasn't <link rel="javascript" href="main.js"/>  and closing tag for  <link rel="stylesheet" href="style.css"/>  also had to do for all pages
+ may 26,2023 -->
+  <body>
+    <!-- NAVIGATION BAR -->
+    <p class="nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="quiz.html">Quiz</a>
+    </p>
+
+    <!-- PAGE TITLE & CONTENT -->
+    <h1>QUIZ PAGE</h1>
+    <p>
+      PLEASE NOTE THAT SPACING AND COMMAS ARE IMPORTANT AND THAT THIS QUIZ IS
+      SENSITIVE TO THAT. THANK YOU
+    </p>
+    <a
+      href="https://www.cornel1801.com/disney/Snow-White-Seven-Dwarfs-1937/characters/snow-white.html"
+      target="_blank"
+      ><p>
+        <img
+          src="img/snowwhite.jpg"
+          alt="Scene from snow white and the 7 dwarfs where she is knocking at the cabin door"
+          class="img"
+        /></p
+    ></a>
+    <p id="q1">
+      What was the first movie created by Disney?
+      <input id="ans1" type="text" /> <span class="feedb" id="feedbk1"></span>
+    </p>
+    <p class="feedb" id="msg"></p>
+    <p id="q2">
+      Who founded Disney? Full Name. <input id="ans2" type="text" /><span
+        class="feedb"
+        id="feedbk2"
+      ></span>
+    </p>
+    <p class="feedb" id="msg2"></p>
+    <p id="q3">
+      When was Disney founded? <input id="ans3" type="text" /><span
+        class="feedb"
+        id="feedbk3"
+      ></span>
+    </p>
+    <p class="feedb" id="msg3"></p>
+
+    <a
+      href="https://Godinallthings.com/2012/05/24/dreams-imagination/"
+      target="_blank"
+      ><p><img src="img/walt disney.webp" alt="Walter Disney" class="img" /></p
+    ></a>
+    <!-- https://Godinallthings.com/2012/05/24/dreams-imagination/ -->
+    <!-- a around p or just img? -->
+    <!-- class for making border radiu should be in img as paragraph does not have a border -->
+    <!-- http://braxtonandyancey.blogspot.com/2011/01/walt-disney-hero-of-damn-happy.html -->
+    <p id="q4">
+      What was the motto of Walter Disney? <input id="ans4" type="text" /><span
+        class="feedb"
+        id="feedbk4"
+      ></span>
+    </p>
+    <p class="feedb" id="msg4"></p>
+    <a
+      href="https://www.bing.com/images/search?view=detailV2&ccid=LA2%2BR5Ms&id=C52ABDD5CEAE480F8A48D9902F9F3E76D8B85494&thid=OIP.LA2-R5MsqFxYvk9QdDVOAAHaEI&mediaurl=https%3A%2F%2Flumiere-a.akamaihd.net%2Fv1%2Fimages%2Fdandelion-from-beauty-and-the-beast_9a93c70f.jpeg%3Fwidth%3D900&cdnurl=https%3A%2F%2Fth.bing.com%2Fth%2Fid%2FR.2c0dbe47932ca85c58be4f5074354e00%3Frik%3DlFS42HY%252bny%252bQ2Q%26pid%3DImgRaw%26r%3D0&exph=502&expw=900&q=beauty+and+the+beast+dandelion&simid=608012849563256625&form=IRPRST&ck=77877D01ABC934C66CE720C7A951E245&selectedindex=14&ajaxhist=0&ajaxserp=0&vt=0"
+      target="_blank"
+      ><p>
+        <img
+          src="img/dandelions.jpeg"
+          alt="Dandelion scene from beauty and the beast"
+          class="img"
+          width="550px"
+        /></p
+    ></a>
+    <button class="btn" id="btn">Check Answers</button>
+    <p id="score">0</p>
+    <p>Results:<span id="output">---</span>%</p>
+  </body>
+</html>

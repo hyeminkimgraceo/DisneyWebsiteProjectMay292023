@@ -1,0 +1,42 @@
+body {
+  text-align: center;
+  width: 900px;
+  margin: auto;
+  color: rgb(27, 88, 142);
+  background-color: rgba(250, 235, 215, 0.7);
+  border-radius: 15px;
+  padding: 85px;
+}
+html {
+  background: url(img/disneycastle.jpg) no-repeat center fixed;
+  /* background not background-image? */
+  background-size: cover;
+}
+
+.nav a {
+  /* why a again? */
+  margin: 0px 25px;
+  color: antiquewhite;
+}
+
+.title {
+  color: rgb(95, 145, 161);
+  font-size: 70px;
+}
+
+p {
+  font-size: 25px;
+}
+
+.img {
+  border-radius: 15px;
+}
+
+.feedb {
+  font-size: medium;
+}
+
+.btn {
+  size: 6000px;
+}
+/* ??? */
